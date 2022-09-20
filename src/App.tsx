@@ -1,13 +1,10 @@
-// import { Counter1, Counter2 } from "./components/Counter";
-// import { Counter1, Counter2 } from "./components/Counter2";
-// import { Counter1, Counter2 } from "./components/Counter3";
-import { Counter1, Counter2 } from "./components/Counter4";
+import TextInput from "./components/TextInput";
 
 const App = () => {
   return (
     <div>
-      <Counter1 />
-      <Counter2 />
+      <h1 className="text-red-500 text-7xl">Hello world!</h1>
+      <TextInput />
     </div>
   );
 };

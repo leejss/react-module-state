@@ -14,6 +14,7 @@ export const Counter1 = () => {
   const decrement = () => {
     multiCountStore.setState((prev) => ({
       ...prev,
+
       count1: prev.count1 - 1,
     }));
   };
